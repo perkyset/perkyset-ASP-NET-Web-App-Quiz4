@@ -15,7 +15,7 @@ namespace SimpleAspNetProject.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.DatabaseMessage = "Database access has already been done on Nov 28, 2024, by Dmytro Hryhoriuk";
+            ViewBag.DatabaseMessage = "Database access has already been done on Nov 28, 2024, by ME!";
             return View();
         }
 
